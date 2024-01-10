@@ -1,0 +1,89 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: lightgrey;
+    border-radius: 8px;
+}
+
+h1{
+    padding: 15px;
+}
+
+.form-group{
+    padding: 5px;
+}
+
+.form-group label{
+    font-weight: bold;
+}
+
+.form-group input{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+/*Configuação dos botoes*/
+.form-group .botao{
+    background-color: green;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+.form-group .botao:hover{
+    background-color: forestgreen;
+}
+
+.form-group #btnLimpar{
+    background-color: tomato;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+.form-group #btnLimpar:hover{
+    background-color: coral;
+}
+
+/*Classes para o javascript inserir conforme a média do aluno*/
+.aprovado{
+    background-color: green;
+    font-weight: bold;
+    color: #ffffff;
+}
+.recuperacao{
+    background-color: orangered;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.reprovado{
+    background-color: firebrick;
+    font-weight: bold;
+    color: #ffffff;
+}
+
